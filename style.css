@@ -1,0 +1,260 @@
+:root{
+    --font1 :"Young Serif", serif ;
+    --font2 :  'Outfit';
+    --mediumfont: 20px;
+    --smallfont : 18px;
+    --color  :  hsl(332, 51%, 32%);
+    --pri_color: hsl(14, 45%, 36%) ;
+    --boxcoolor : hsl(330, 100%, 98%) ;
+    --light : hsl(30, 10%, 34%);
+    --margin : 2.50vw;   
+}
+@media (max-width: 375px) {
+    :root{
+        --margin : 3vh;
+    }
+    html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    body{
+        background-color: white;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+   body .container {
+     width: 50vmax;
+     height: fit-content;
+     padding: 0;
+     margin: 0px;
+     height: fit-content;
+     border-radius: 0
+    }
+    .header img {
+        width: 100%; 
+        margin: 0; 
+        padding: 0;  
+        display: block; 
+        border-radius: 0px;
+        display: block;
+    }
+.header h1{
+    margin-left: var(--margin);
+    padding: 3vh 0;
+}
+.header p{
+    font-size: medium;
+    line-height: 8vw;
+    width: 80%;
+    color: var(--light);
+    margin-left: var(--margin)
+}
+.box{
+    background-color: var(--boxcoolor);
+    width: 80%;
+    height:20vh;
+    margin-left: var(--margin);
+    margin-top: var(--margin);
+    border-radius: 20px;
+ }
+ .box h2{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+     margin-left: var(--margin);
+     font-family: var(--font2);
+     color: var(--pri_color);
+  }
+ .box h3{
+    font-size: small;
+    margin-bottom: 2vh ;
+ }
+
+.ing h1{
+    padding: 10px;
+}
+.ing li{
+    font-size: medium;
+    margin-left: 10px;
+}
+.ins h1{
+    padding: 10px;  
+}
+.ins table{
+    width : fit-content;
+    height: 70vmax;
+    border-spacing: 20px;
+    font-size: medium;
+    margin-left: 10px;
+}
+.last table{
+    width: 100%;
+}
+
+};
+
+body{
+    background-color: var(--boxcoolor);
+}
+header h1{
+    color: black;
+}
+.header p{
+    color: var(--light);
+width: 95%;
+font-size: 18px;
+}
+h1{  
+font-family: var(--font1);
+color: var(--pri_color);
+}
+img{
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 4vh;
+}
+
+.box h3 ::before{
+    content: '\2022';
+   margin-right: 15px;
+   color: var(--pri_color);
+
+}
+.box h3{
+    margin-left: var(--margin);
+    color: var(--light);
+    font-size: medium;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.boxcontent{
+    padding-bottom: 10px;
+} 
+.box b{
+    color: var(--pri_color);  
+}
+ .box{
+    background-color: var(--boxcoolor);
+    width: 80%;
+    height:30vh;
+    margin-left: var(--margin);
+    margin-top: 2vw;
+    border-radius: 20px;
+    font-family: var(--font2);
+ }
+ .box h2{
+
+   padding-top: 20px ;
+    margin-left: var(--margin);
+    font-family: var(--font2);
+    color: var(--pri_color);
+
+ }
+.ing h1{
+    font-size: 30px;
+    text-align: left;
+    font-weight: 500;
+}
+.ing{
+    width: 80%;
+    margin-left: var(--margin);
+    font-family: var(--font2);
+    font-size: var(--mediumfont);
+}
+.ing li{
+   list-style: '\2022';
+   list-style-position: outside;
+   padding-left: 15px; 
+   margin-bottom: 10px;
+   font-size: var(--smallfont);
+   
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: var(--margin);
+}
+.container{
+    margin-left: 24vw;
+    border-radius: 20px;
+    width: 55vw;
+    height: fit-content;
+    background-color: white;
+}
+.ins{
+    margin-left: var(--margin);
+    font-family: var(--font2);
+    font-size: var(--smallfont);
+    width: 90%;
+}
+.ins table{
+    width: 90%;
+    height: 40vh;
+    border-collapse: collapse; 
+    text-align: left;
+    border-spacing: 10px;
+}
+.ins b{
+    color: var(--pri_color);
+}
+.ins hr{
+    margin-left: 20px;
+    width: 90%;
+}
+.ins h1{
+    font-size: 30px;
+    text-align: left;
+    font-weight: 500;
+}
+.ins table b{
+    margin-right: 10px;
+}
+.ins td{
+    text-align: left;
+  padding-bottom: 10px;
+}
+.ins span{
+    margin-left: 10px;
+    color: var(--light);
+}
+.ins hr{
+    margin-top: 20px;
+}
+.amount b{
+    color: var(--pri_color);
+}
+.time{
+    font-family: var(--font2);
+    font-size: var(--smallfont);
+    width: 100%;
+    border-collapse: collapse;
+}
+p{
+    font-family: var(--font2);
+    font-size: var(--mediumfont);
+  margin: 0;
+}
+.amount{
+    font-family: var(--font2);
+    border-spacing: 20px;
+    width:45vw ;
+    height: 40vh;
+    font-size: var(--mediumfont);
+    text-align: left;
+}
+.last{
+    margin-left: var(--margin);
+}
+.last h1{
+    font-weight:300;
+    margin: 20px 10px;
+}
+.last td{
+    color: var(--light);
+}
+.last p {
+    color: var(--light);
+}
